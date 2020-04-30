@@ -3,7 +3,7 @@ FROM rust:1
 RUN \
     #
     # Select a toolchain (`nightly` or `nightly-YYYY-MM-DD`)
-    toolchain=nightly-2020-03-19 \
+    toolchain=nightly \
     #
     # Install nightly toolchain and rustup components
     && rustup toolchain install $toolchain --component \
