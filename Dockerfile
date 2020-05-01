@@ -15,6 +15,8 @@ RUN \
     #
     # Install development tools
     && cargo install \
+    apply-license \
+    cargo-readme \
     cargo-sort-ck \
     #
     # Done
